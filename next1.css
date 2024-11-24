@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 2em;
+    background-color: #0073b1;
+    color: #fff;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+.updates-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 2em;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.update-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1.5em;
+    transition: transform 0.3s;
+}
+
+.update-card:hover {
+    transform: translateY(-5px);
+}
+
+.update-card h2 {
+    font-size: 1.5em;
+    color: #0073b1;
+    margin-bottom: 0.5em;
+}
+
+.update-card p {
+    font-size: 1em;
+    line-height: 1.6;
+} 
+button{
+    text-align:center; 
+    color:white; 
+    border-style: solid;
+    background-color: #0077b5; 
+border-color:#0077b5 ; 
+border-radius: 12px;
+    margin-left: 0px;
+    padding: 10px 40px 10px 40px;
+}  
+p{
+    font-family: "Roboto"; 
+    font-size: 200px; 
+    font-weight: 400;
+} 
+.back{
+    margin-left: 650px;
+}

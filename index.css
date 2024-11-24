@@ -1,0 +1,56 @@
+
+footer{
+    background-color: #0077b5;
+    margin-top: 10px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+nav{
+    background-color: #0077b5;
+}
+.head{
+    color: white
+}
+.about{
+    padding: 30px;
+}
+.hero{
+    margin-left: 500px;
+    width: 500px;
+    
+}
+.nav-link{
+    color: white;
+}
+
+.heading{
+    font-family: serif;
+    font-weight: bold;
+}
+.carousel-images{
+    height: 50vh;
+    width: 47vw;
+}
+.carousel-margin{
+    margin: 20px;
+    margin-right: 20px;
+}
+.data{
+    padding: 10px;
+} 
+.linkedin{
+    font-family: "Bree-serif"; 
+    font-weight:bold; 
+    padding-left:280px;
+    
+} 
+.description{
+ 
+     font-size:18px;
+    font-family:"fantacy"; 
+
+} 
+.carousels{
+    margin-top: 10px;
+}
